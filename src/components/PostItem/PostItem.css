@@ -1,0 +1,29 @@
+.postItem {
+    display: inline-block;
+    position: relative;
+    margin: 12px 10px;
+    padding: 10px 10px;
+    text-align: left;
+    list-style: none;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ececec;
+    background-color: #f8f8f8;
+    -webkit-box-shadow: 0 4px 10px -4px #ececec;
+    box-shadow: 0 4px 10px -4px #ececec;
+}
+
+.postImage img {
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+.postTitle {
+    display: block;
+    color: #000;
+    font-size: 14px;
+    line-height: 1.1em;
+    margin: 10px 0 0 0;
+    width: 200px;
+}
